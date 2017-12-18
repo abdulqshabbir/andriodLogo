@@ -19,10 +19,11 @@ body {
   position: relative;
   background-color: #A4CA39;
   width: 200px;
-  height: 125px;
-  margin: 0px auto;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
+  height: 100px  ;
+  margin: 50px auto;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  margin-bottom: 0px;
 }
 
 #leftEye {
@@ -74,10 +75,12 @@ body {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   padding: 0;
-  height: 200px;
+  height: 180px;
   width: 200px;
-  top: 125px;
+  top: 100px;
   left: 67px;
-  z-index:10;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; 
 }
